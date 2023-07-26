@@ -43,13 +43,3 @@ stages:
         ArtifactName: 'drop'
         publishLocation: 'Container'
 
- -stage: deploystage
-  jobs:
-   -job: deployjobwithwebapp
-
-    pool:
-      vmImage: 'windows-latest'
-
-    
-
-    steps:       
