@@ -5,10 +5,6 @@
 
 trigger:
 - master
-stages:
- -stage: buildstage
-  jobs:
-   -job: buildjob
 
     pool:
       vmImage: 'windows-latest'
